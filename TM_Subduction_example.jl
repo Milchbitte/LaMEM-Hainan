@@ -3,7 +3,7 @@ using LaMEM, GeophysicalModelGenerator
 
 model = Model(      Grid(   x   = [-2000.,2000.],
                             z   = [-660,40] ,
-                            nel = (256,64)
+                            nel = (256,63)
                         ),
                     
                     ## Output filename
